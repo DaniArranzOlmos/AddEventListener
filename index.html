@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Sueldo</h1>
+    <form id="formulario">
+        <label for="sueldo">Salario bruto anual: </label>
+        <input type="text" id="sueldo" name="sueldo">
+        <br><br>
+
+        <label>Mensualidad:</label>
+        <input type="radio" id="12" value="12" name="mensualidades" checked>
+        <label for="12">12</label>
+        <input type="radio" id="14" name="mensualidades" value="14">
+        <label for="14">14</label>
+
+        <br><br>
+        <label for="hijos">Hijos: </label>
+        <input type="text" name="hijos" id="hijos">
+        <br><br>
+        
+        <label for="contrato">Tipo de Contrato: </label>
+        <select name="contrato" id="contrato">
+            <option value="opcion0">Elige una opcion</option>
+            <option value="opcion1">Contrato fijo</option>
+            <option value="opcion2">Contrato temporal</option>
+            <option value="opcion3">Autónomo</option>
+        </select><br><br>  
+
+        <input type="submit" name="calcular" id="calcular" value="Calcular">
+    </form>
+</body>
+</html>
